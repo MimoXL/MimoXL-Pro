@@ -1,5 +1,6 @@
 # MimoXL Pro - Advanced Penetration Testing Tool
 
+<img src="banner.png" alt="MimoXL Pro Banner" width="100%">
 <img src="https://img.shields.io/badge/Version-1.0-red?style=for-the-badge&logo=github" alt="Version"> <img src="https://img.shields.io/badge/Python-3.14-blue?style=for-the-badge&logo=python" alt="Python"> <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=opensourceinitiative" alt="License">
 
 ---
