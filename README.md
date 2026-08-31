@@ -62,48 +62,23 @@ mimoxl
 
 ### One-Liner Installation (Alternative)
 
-If you want to combine all the steps into one command:
 ```bash
-git clone https://github.com/MimoXL/mimoxl.git && cd mimoxl && chmod +x install.sh && ./install.sh
+git clone https://github.com/MimoXL/mimoxl.git && cd mimoxl && chmod +x install.sh && ./install.sh && mimoxl
 ```
 
 ---
 
-## 🚀 Usage
+### Manual Installation (If the installer fails)
 
-After successful installation, simply run:
+If you encounter any issues with the installer, you can install manually:
+
 ```bash
+# Copy the binary to system path
+sudo cp mimoxl /usr/local/bin/
+
+# Make it executable
+sudo chmod +x /usr/local/bin/mimoxl
+
+# Run the tool
 mimoxl
 ```
-
-Then enter the target URL when prompted:
-```
-[?] Enter target URL (e.g., https://example.com): https://target.com
-```
-
-The tool will automatically run all scans and generate a detailed report.
-
----
-
-## 📁 Output
-
-After scanning, you'll find a folder named after the target domain (e.g., `example_com`) containing:
-- `MimoXL_Report_*.html` - Detailed visual report
-- `MimoXL_Data_*.json` - Raw JSON data
-- `MimoXL_Summary_*.txt` - Quick summary
-- Extracted sensitive files (e.g., `passwd.txt`, `.env`)
-
----
-
-## ⚠️ Disclaimer
-
-> **This tool is for educational and authorized testing purposes only.**
-> Do not use it against systems without explicit permission.
-> The author is not responsible for any misuse.
-
----
-
-## 👤 Author
-
-**MimoXL** - Shadow Mode Enhanced  
-[GitHub](https://github.com/MimoXL)
